@@ -8,24 +8,53 @@
 <body>
   <h1>성인제의 Servlet 복습 프로젝트</h1>  
 
-  <!-- 피자 주문 요청 -> 영수증 응답 -->
-  <h3>피자 주문하기</h3>
+  <form action="/ex3" method="get">
+    <!-- 피자 주문 요청 -> 영수증 응답 -->
+   <h3>피자 주문하기</h3>
 
-  피자 선택:
-  <select name="pizza" >
-    <option value="콤비네이션">콤비네이션</option>
-    <option value="불고기">불고기</option>
-    <option value="포테이토">포테이토</option>
-    <option value="고구마">고구마</option>
-    <option value="쉬림프">쉬림프</option>
-  </select>
+    피자 선택:
+    <select name="pizza" >
+      <option value="콤비네이션">콤비네이션(1000)</option>
+      <option value="불고기">불고기(2000)</option>
+      <option value="포테이토">포테이토(2000)</option>
+      <option value="고구마">고구마(2000)</option>
+      <option value="쉬림프">쉬림프(4000)</option>
+    </select>
   
+    <br>
 
-  오리지널/나폴리/ 씬
-  
+    도우 선택 :
+    <select name="type" >
+    <option value="오리지널">오리지널 </option>    
+    <option value="나폴리">나폴리(600)</option>    
+    <option value="씬 ">씬(700)</option>    
+    
+     
+    
+        
+    </select>
+    <br>
 
+    기타 옵션 : <br>
 
+    <input type="checkbox" name="opt" value="피클">
+    피클 추가 (+500)
+    <br>
 
+    <input type="checkbox" name="opt" value="핫소스">
+    핫소스 추가 (+500)
+    <br>
 
+    <input type="checkbox" name="opt" value="갈릭디핑소스">
+    갈릭디핑소스 추가 (+500)
+    <br>
+
+    주문자명 : <input type="text" name="orderName">
+    주소     : <input type="text" name="address">
+ 
+    <br>
+
+    <button>주문완료~</button>
+  </form>
 </body>
 </html>
