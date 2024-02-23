@@ -10,10 +10,10 @@
   <h1>EL을 이용해서 request에 세팅된 속성 얻어와 출력하기</h1>
   
   <ul>
-  	<li> [작성법] : \${K}] </li>
+  	<li> [작성법] : \${K} </li>
   	
-  	<li> 기본 자료형 : ${score}]</li>
-  	<li> String(객체) : ${address}]</li>
+  	<li> 기본 자료형 : ${score}</li>
+  	<li> String(객체) : ${address}</li>
   	
 		<li>
 			List 객체 : ${strList}

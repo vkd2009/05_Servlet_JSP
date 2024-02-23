@@ -29,7 +29,7 @@ public class PizzaOrderServlet extends HttpServlet {
 		req.setAttribute("myName", myName);
 		
 		
-		
+			
 		
 		
 		// pizza_order.jsp가 응답 화면을 대신 만들어 출력할 수 있도록
